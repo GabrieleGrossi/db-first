@@ -1,2 +1,14 @@
 Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario, e inseritela in un file .txt all'interno della repo.
 
+registration_code       -       mediumint           -       AUTO_INCREMENT
+brand                   -       varchar(70)         -       NULL
+model                   -       varchar(70)         -       NULL
+fuel                    -       varchar(20)         -       NOTNULL
+color                   -       varchar(20)         -       NOTNULL
+optional                -       text                -       NULL
+car_doors               -       tinyint             -       NOTNULL
+used                    -       varchar(3)          -       NOTNULL
+full_speed              -       float(5,2)          -       NOTNULL
+kilometres              -       float(7,2)          -       NOTNULL
+valutation              -       float(9,2)          -       NOTNULL
+seat                    -       tinyint             -       NULL
